@@ -1,0 +1,17 @@
+{
+    "name": "noaman/ensem_web_project",
+    "autoload": {
+        "psr-4": {
+            "Noaman\\EnsemWebProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Noamane2023",
+            "email": "135634112+Noamane2023@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

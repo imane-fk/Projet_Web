@@ -1,0 +1,269 @@
+/*.Etape1{
+    background-color: whitesmoke;
+    padding-top: 60px;
+    
+}
+
+.div1{
+    background-color:#ccf5f5;
+    border-color: #b8f0f1;
+}
+.p1{
+    color:#006a74;
+}
+
+.container{
+    display: flex;
+    gap: 20px; 
+    margin: 20px;
+}
+.div2{
+    flex: 2;
+    padding: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #d4d1d1;
+}
+
+h5 {
+    text-align: center;
+    color: #006a74;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0; 
+    width: 100%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+button, a.lien1 {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #006a74;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+button:hover, a.lien1:hover {
+    background-color: #005359;
+}
+
+hr {
+    border: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.container2 {
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.label1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.label1 label {
+    flex: 1;
+}
+
+.label1 input {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+.gris{
+    background-color: rgb(187, 181, 181);
+    border-radius: 5px;
+}*/
+
+/* Style général */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h5 {
+    text-align: center;
+    color: #004d40;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+/* Mise en page */
+.Etape1 {
+    background-color: #e8f5e9;
+    color: #004d40;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #004d40;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Conteneur des sections */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.div2 {
+    flex: 1;
+    min-width: 280px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Form Elements */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #004d40;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #80cbc4;
+    box-shadow: 0 0 4px rgba(0, 77, 64, 0.4);
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Boutons et liens */
+button, a.lien1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, a.lien1:hover {
+    background-color: #00796b;
+}
+
+/* Informations supplémentaires */
+.p1 {
+    color: #00695c;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Sections informatives */
+.container2 {
+    background-color: #f1f8e9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.gris {
+    background-color: #eceff1;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #455a64;
+}
+
+/* Ligne de séparation */
+hr {
+    border: none;
+    height: 2px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+/* Résponsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    form {
+        padding: 15px;
+    }
+    button, a.lien1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
